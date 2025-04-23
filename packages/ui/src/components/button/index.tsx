@@ -1,16 +1,15 @@
-interface IButtonProps {
-  title: string;
-}
+"use client";
+
+interface IButtonProps {}
 
 function Button(props: IButtonProps) {
-  const { title } = props;
   return (
     <button
       onClick={() => {
         console.log(123, "=========> 123");
       }}
     >
-      {title}
+      123
     </button>
   );
 }
