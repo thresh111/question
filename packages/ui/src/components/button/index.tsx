@@ -1,17 +1,10 @@
 "use client";
+import styles from "./index.module.scss";
 
 interface IButtonProps {}
 
 function Button(props: IButtonProps) {
-  return (
-    <button
-      onClick={() => {
-        console.log(123, "=========> 123");
-      }}
-    >
-      123
-    </button>
-  );
+  return <div onClick={() => alert("clicked")}>Button123333</div>;
 }
 
 export { Button };

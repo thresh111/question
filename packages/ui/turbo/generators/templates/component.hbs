@@ -1,11 +1,14 @@
 import styles from "./index.module.scss";
 
-export interface I{{pascalCase name}}Props {}
+interface I{{pascalCase name}}Props {}
 
-export default function {{pascalCase name}}(props: I{{pascalCase name}}Props) {
+function {{pascalCase name}}(props: I{{pascalCase name}}Props) {
   return (
     <div>
       {{pascalCase name}}
     </div>
   );
 }
+
+export { {{pascalCase name}} };
+export type { I{{pascalCase name}}Props };

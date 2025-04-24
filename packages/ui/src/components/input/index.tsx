@@ -1,12 +1,10 @@
+"use client";
 import styles from "./index.module.scss";
 
-interface IInputProps {
-  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  type: "text" | "password";
-}
+interface IInputProps {}
 
 function Input(props: IInputProps) {
-  return <div>3333</div>;
+  return <div>Input</div>;
 }
 
 export { Input };
